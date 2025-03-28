@@ -59,5 +59,15 @@ namespace CharacterRecords.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///.
+        /// </summary>
+        internal static string characterData {
+            get {
+                return ResourceManager.GetString("characterData", resourceCulture);
+            }
+        }
     }
 }
